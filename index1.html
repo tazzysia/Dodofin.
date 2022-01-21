@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>information</title>
+	<style>
+        @font-face{
+        font-family:pac ;
+        src: url('font/Pacifico-Regular.ttf');
+        }
+         body{
+                background-color: peachpuff;
+        }
+                h1{
+                     text-align:center ;
+                     color: #800080 ;
+
+                }
+		form{   background-color:lightpink;
+			line-height: 40px;
+			font-size: 18px;
+			padding: 15px 20px;
+			border: solid palevioletred;
+			margin: 20px 340px ;
+                        border-radius: 20px;
+                        color:  #800080;
+                        box-shadow: 1px 2px 15px palevioletred;
+		}
+                form h2{
+                        font-family: pac;
+                        text-align:center ;
+                        color: #800080;
+
+                }
+                button a{
+                       text-decoration: none;
+                       text-transform: uppercase;
+                       font-size: 17px;
+                       color:  #800080;
+                }
+                button{
+                      margin: 6px 260px;
+                      padding: 10px 20px;
+                      background-color: violet;
+                } 
+                .button-list{
+                        display: grid;
+                        grid-template-columns: auto auto;
+                }              
+
+	</style>
+</head>
+<body><h1>Enter Your Information</h1>
+	<form><h2>DODOFIN</h2>
+		<table>
+        <tr>
+        	<td><label><b>Name:</b></label></td>
+        	<td><input type="text" name="text" placeholder="Enter your full name" size="30px"></td> 	
+        </tr>
+        <tr>
+        	<td><label><b>Age:</b></label></td>
+        	<td><input type="Age" name="Age" placeholder="Enter your age" size="30px"></td>
+        </tr>
+        <tr>
+        	<td><label><b>Brith Date:</b></label></td>
+        	<td><input type="Date" name="Date"></td>	
+        </tr>
+        <tr>
+        	<td><label><b>Gender:</b></label></td>
+        	<td><input type="radio" name="Gender">Male
+        	    <input type="radio" name="Gender">Female
+                <input type="radio" name="Gender">Transman
+                <input type="radio" name="Gender">Transwoman
+            </td>
+        </tr>
+        <tr>
+        	<td><label><b>Business:</b></label></td>
+        	<td><input type="text" name="text" placeholder="Enter your business" size="30px"></td>
+        </tr>
+        <tr>
+        	<td><label><b>Email:</b></label></td>
+        	<td><input type="Email" name="Email" placeholder="Enter your email" size="30px"></td>
+        </tr>
+        <tr>
+        	<td><label><b>Marial Status:</b></label></td>
+        	<td><input type="text" name="text" placeholder="Enter your connubial" size="30px"></td>
+        </tr>
+        <tr>
+        	<td><label><b>About Partner's Age:</b></label></td>
+        	<td><input type="Age" name="Age" placeholder="Form ... to ..."></td>
+        </tr>
+        <tr>
+        	<td><label><b>About Partner's Gender:</b></label></td>
+        	<td><input type="radio" name="Gender">Male
+                <input type="radio" name="Gender">Female
+                <input type="radio" name="Gender">Transman
+                <input type="radio" name="Gender">transwoman
+        	</td>
+        </tr>
+	</table>
+	<b>Remark:<textarea></textarea></b><b>Exception:<textarea></textarea></b>
+	</form>
+
+        <div class="button-list">
+        <button class="button"><a href="index.html">Back<<</a></button>
+
+        <button class="button2"><a href="index2.html">Submit</a></button></div>
+
+</body>
+</html>

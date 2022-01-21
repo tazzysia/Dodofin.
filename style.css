@@ -1,0 +1,200 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@font-face{
+	font-family:pac ;
+	src: url('font/Pacifico-Regular.ttf');
+}
+header{
+	margin: 20px 140px;
+}
+.logo a{
+	text-decoration: none;
+	font-size: 45px;
+	float: left;
+	color:  #800080;
+	font-family: pac;
+}
+nav ul{
+	margin-left: 300px;
+}
+nav ul li{
+	display: inline-block;
+	margin: 20px 58px;
+	font-size: 22px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #800080;
+}
+li a:hover{
+	background-color: palevioletred;
+}
+#nav-menu{
+	box-shadow: 0 10px 60px palevioletred;
+	background-color: lightpink;
+}
+#banner {
+	background-image: url(img/texture.jpg);
+	width: 100%;
+	height: 570px;
+	background-size: cover;
+	box-shadow: 0 10px 10px palevioletred;
+	background-attachment: fixed;
+}
+/*#banner img{
+	width: 100%;
+	height: 490px;
+	object-fit: cover;
+	box-shadow: 0 10px 10px palevioletred;
+}*/
+
+.quote{
+	position: absolute;
+	top: 300px;
+	left: 90px;
+	color: #800080;
+}
+.quote .home-heading{
+	font-size: 27px;
+}
+.quote .home-bottom{
+	font-size: 25px;
+}
+button a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 17px;
+	color:  #800080;
+}
+button{
+	margin: 10px 100px;
+	padding: 10px 20px;
+	background-color: violet;
+}
+#about{
+   margin-top:55px;
+   margin-bottom: 30px;
+}
+#about h1,#blog h1,#Review h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 30px;
+	color: #800080;
+}
+#about hr,#blog hr,#Review hr{
+	border: none;
+	height: 2px;
+	background-color:#FFB6C1;
+	width: 35%;
+	margin: 3px auto;
+}
+#about p{
+	margin: 28px 40px;
+	font-size: 20px;
+	text-align: justify;
+	color: #800080;
+}
+#blog{
+	margin-bottom: 30px;
+}
+#blog p{
+	text-align: center;
+	font-size: 19px;
+	color:#800080 ;
+}
+#blog img{
+	width: 100%;
+}
+.blog-item2,.blog-item{
+	box-shadow: 1px 1px 20px palevioletred;
+	width: 300px;
+	height: 530px;
+	margin: 30px 40px;
+	padding: 20px 15px;
+	border-radius: 30px;
+	transition-property: width,height;
+	transition-duration: 1s;
+}
+.blog-item2:hover,.blog-item:hover{
+	width: 330px;
+	height: 555px;
+}
+
+.blog-para h2{
+       text-align: center;
+       line-height: 30px;
+       color: #800080 ;
+}
+.blog-para p{
+	text-align: justify;
+	margin: 10px 6px;
+	line-height: 30px;
+	color:#800080 ;
+}
+.blog-list{
+	display: grid;
+	grid-template-columns: auto auto;
+	margin-left: 180px;
+}
+.blog-list2{
+	display: grid;
+	grid-template-columns: auto auto auto;
+
+}
+#Review p{
+	margin: 30px 40px;
+	font-size: 18px;
+	color:#800080 ;
+	text-align: justify;
+	border: solid 2px ;
+	height: 250px;
+	overflow: auto;
+	background-color:#FFC0CB;
+}
+#footer{
+	background-color:lightcoral;
+	height: 235px;
+	margin-top: 80px;
+	box-shadow: 0px 10px 40px palevioletred;
+}
+#footer p{
+	text-align: center;
+	font-size: 25px;
+	color:#800080 ;
+	background-color: violet;
+}
+#footer .footer-left{
+font-size: 22px;
+color:#800080 ;
+margin-left: 80px;
+margin-top: 30px;
+/*float: left;*/
+}
+#footer .footer-center,.footer-right{
+	font-size: 22px;
+	color:#800080 ;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.footer-center ul li a,.footer-right ul li a{
+   padding-left: 50px;
+	text-decoration: none;
+	color:#800080 ;
+}
+.footer-center ul,.footer-right ul{
+	list-style-type: none;
+}
+.footer-list{
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+
+@media(max-width: 1199px) and (min-width: 992px){
+	
+}
+
+
+
+
